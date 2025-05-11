@@ -16,8 +16,8 @@ To develop and deploy the smart contracts, install:
 - **Ganache GUI** or **Ganache CLI**
 
 Install Truffle globally:
-```bash
 npm install -g truffle
+
 
 ### Frontend
 
@@ -66,3 +66,4 @@ Each product’s serial number can be converted to a QR code. Scanning the code 
 ### License
     MIT © 2025 – QR-Integrated Supply Chain Verification
     Built for secure, transparent supply chains using Ethereum smart contracts.
+
