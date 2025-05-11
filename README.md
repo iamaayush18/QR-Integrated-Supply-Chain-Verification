@@ -16,7 +16,8 @@ To develop and deploy the smart contracts, install:
 - **Ganache GUI** or **Ganache CLI**
 
 Install Truffle globally:
-npm install -g truffle
+
+    npm install -g truffle
 
 
 ### Frontend
@@ -30,16 +31,19 @@ Install dependencies with:
 ### Setup and compilation
 
 Open Ganache and ensure it’s running on:
+
     RPC Server: http://127.0.0.1:7545
     Chain ID: 1337 (or 5777)
 
 Compile and Deploy Contracts using the commands:
+
     truffle compile
     truffle migrate
 
 ### Metamask setup
 
 Add a Custom Network in MetaMask:
+
 	- Network Name: Ganache Local
 	- RPC URL: http://127.0.0.1:7545
 	- Chain ID: 1337 or 5777
@@ -52,6 +56,7 @@ Connect your browser wallet to the DApp.
 ### Running the application
 
 Enter the following commands in the terminal:
+
     truffle compile
     truffle migrate
     npm run dev
