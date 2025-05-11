@@ -25,7 +25,7 @@ Frontend is built using React and Web3.js.
 
 Install dependencies with:
 
-npm install
+    npm install
 
 ### Setup and compilation
 
